@@ -293,11 +293,12 @@
     }
     .three-content{
         display: flex;
-        border-radius: 10px;
+        
         margin-left: 10%;
         margin-right: 10%;
         height: 400px;
         background-color: rgba(34, 34, 34, 1);
+        border-radius: 10px;
     }
     .three-des{
         display: flex;
@@ -331,7 +332,8 @@
         font-size: 1em;
     }
     .three-image{
-        margin-top: 4%;
+        margin-top: 2%;
+        
         margin-right: 5%;
         position: relative;
         width: 362px;
@@ -351,5 +353,60 @@
         object-fit: cover;
         
         
+    }
+    
+    /* section four unique section equipment */
+
+    .four-container{
+        
+        padding-top: 5%;
+        max-width: 1920px;
+    background-color: rgb(0, 0, 0);
+    }
+    .four-content{
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 10px;
+        height: 450px;
+        background-color: rgba(145, 120, 177, 0.2);
+        text-align: center;
+    }
+    .four-content h1{
+        padding-top: 5%;
+        font-size: 2em;
+        font-weight: 900;
+        font-family: "Inter", sans-serif;
+        color: #ffffff;
+
+    }
+    .four-content p{
+        margin-right: 5%;
+        margin-left: 5%;
+        font-family: "Inter", sans-serif;
+        color: rgba(255, 255, 255, 0.5);
+        
+    }
+
+    .four-image-container{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 1px;
+        padding-bottom: 1px;
+        
+        
+
+
+    }
+    .four-img{
+      
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        
+        border-radius: 12px;
     }
     
