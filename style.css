@@ -1,5 +1,8 @@
 
-
+body{
+    max-width: 1440px;
+    background-color: rgb(0, 0, 0);
+}
 .inter-normal {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -9,7 +12,7 @@
   
   .top-part{
   
-      max-width: 1920px;
+      max-width: 1440px;
       
       margin: 0;
       padding: 0;
@@ -235,10 +238,10 @@
  }
 
  /* this is section two */
- .section-two-container{
+ /*.section-two-container{
     max-width: 1920px;
     background-color: rgb(0, 0, 0);
- }
+ }*/
 .two-header{
     margin-top: -5%;
     justify-content: center;
@@ -285,12 +288,12 @@
 
     /* this is section three run an extra mile */
 
-    .three-container{
+    /*.three-container{
         margin-top: -5%;
         padding-top: 5%;
         max-width: 1920px;
     background-color: rgb(0, 0, 0);
-    }
+    }*/
     .three-content{
         display: flex;
         
@@ -357,12 +360,12 @@
     
     /* section four unique section equipment */
 
-    .four-container{
+    /*.four-container{
         
         padding-top: 5%;
         max-width: 1920px;
     background-color: rgb(0, 0, 0);
-    }
+    }*/
     .four-content{
         margin-left: 10%;
         margin-right: 10%;
@@ -405,4 +408,113 @@
         border-radius: 12px;
         box-shadow: rgba(64, 230, 108, 0.25) 0px 50px 100px -20px, rgba(96, 158, 128, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     }
+
+    /* section five bmi */
+
     
+    .five-header h1{
+        margin-left: 30%;
+        font-size: 2em;
+        font-weight: 900;
+        font-family: "Inter", sans-serif;
+        color: #ffffff;
+    }
+    .five-header p{
+        margin-left: 30%;
+        margin-right: 25%;
+        font-family: "Inter", sans-serif;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .bmi-form-container{
+        display: flex;
+        gap: 10%;
+        background-color: rgba(34, 34, 34, 1);
+        height: 400px;
+    }
+
+    /* bmi table */
+
+    .bmi-table{
+        width: 30%;
+        /* background-color: aliceblue; */
+        margin-left: 10%;
+        /* margin-top: 20%; */
+        padding-top: 5%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        
+        font-family: "Inter", sans-serif;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .bmi-table h2{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-weight: 900;
+        font-size: 1.25em;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 15px;
+        text-align: left;
+    }
+    th {
+        color: white;
+        font-weight: 600;
+    }
+
+    /* bmi form */
+    .bmi-form{
+        padding-top: 4%;
+        font-family: "Inter", sans-serif;
+        color: white;
+    }
+    
+    .bmi-form p{
+        margin-right: 16%;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: normal;
+        font-family: "Inter", sans-serif;
+    }
+
+    .bmi-form button{
+     width: 250px;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     border-radius: 10px;
+     font-size: 18px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     background: rgba(255, 255, 255, 0.1);
+     border-style: none;
+     color: rgba(255, 255, 255, 0.5);
+
+
+    }
+
+    .bmi-form select{
+     width: 250px;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     border-radius: 10px;
+     font-size: 18px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     background: rgba(255, 255, 255, 0.1);
+     border-style: none;
+     color: rgba(255, 255, 255, 0.5);
+    }
+    option{
+        background-color: #6b6b6b;
+        color: #ffffff;
+    }
+    #select{
+        width: 500px;
+    }
+  
