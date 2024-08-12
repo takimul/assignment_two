@@ -396,17 +396,13 @@
         gap: 10px;
         margin-bottom: 1px;
         padding-bottom: 1px;
-        
-        
-
-
     }
     .four-img{
       
         width: 200px;
         height: 200px;
         overflow: hidden;
-        
         border-radius: 12px;
+        box-shadow: rgba(64, 230, 108, 0.25) 0px 50px 100px -20px, rgba(96, 158, 128, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     }
     
