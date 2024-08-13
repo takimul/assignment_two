@@ -1,6 +1,10 @@
-
+* {
+    margin: 0;
+    padding: 0;
+  }
 body{
-    max-width: 1440px;
+    max-width: 1920px;
+    margin: 0 auto;
     background-color: rgb(0, 0, 0);
 }
 .inter-normal {
@@ -12,7 +16,6 @@ body{
   
   .top-part{
   
-      max-width: 1440px;
       
       margin: 0;
       padding: 0;
@@ -240,7 +243,7 @@ body{
  /* this is section two */
  
 .two-header{
-    margin-top: -5%;
+    /* margin-top: -5%; */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -280,7 +283,7 @@ body{
     .two-image p{
         font-family: "Inter", sans-serif;
         color: rgba(255, 255, 255, 0.5);
-        margin-top: -7%;
+        /* margin-top: -7%; */
     }
 
     /* this is section three run an extra mile */
@@ -288,10 +291,11 @@ body{
     
     .three-content{
         display: flex;
-        
+        margin-top: 5%;
+        margin-bottom: 5%;
         margin-left: 10%;
         margin-right: 10%;
-        height: 400px;
+        height: fit-content;
         background-color: rgba(34, 34, 34, 1);
         border-radius: 10px;
     }
@@ -309,7 +313,7 @@ body{
         color: rgba(255, 255, 255, 1);
     }
     .three-des p{
-        margin-top: -3%;
+        /* margin-top: -3%; */
         margin-right: 10%;
         font-family: "Inter", sans-serif;
         color: rgba(255, 255, 255, 0.5);
@@ -327,9 +331,13 @@ body{
         font-size: 1em;
     }
     .three-image{
-        margin-top: 2%;
+        /* margin-top: 5%;
         
-        margin-right: 5%;
+        margin-right: 5%; */
+        margin: 0 auto;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+
         position: relative;
         width: 362px;
         height: 312px;
@@ -359,6 +367,8 @@ body{
     background-color: rgb(0, 0, 0);
     }*/
     .four-content{
+        margin-top: 5%;
+        margin-bottom: 5%;
         margin-left: 10%;
         margin-right: 10%;
         border-radius: 10px;
@@ -383,8 +393,6 @@ body{
     }
 
     .four-image-container{
-        margin-left: 10%;
-        margin-right: 10%;
         margin-top: 5%;
         display: flex;
         justify-content: center;
@@ -405,6 +413,7 @@ body{
 
     
     .five-header h1{
+        margin-top: 5%;
         margin-left: 30%;
         font-size: 2em;
         font-weight: 900;
@@ -412,6 +421,7 @@ body{
         color: #ffffff;
     }
     .five-header p{
+        margin-bottom: 5%;
         margin-left: 30%;
         margin-right: 25%;
         font-family: "Inter", sans-serif;
@@ -419,21 +429,20 @@ body{
     }
     .bmi-form-container{
         display: flex;
+        margin-bottom: 5%;
         gap: 10%;
         background-color: rgba(34, 34, 34, 1);
-        height: 400px;
+        height: fit-content;
     }
 
     /* bmi table */
 
     .bmi-table{
         width: 30%;
-        /* background-color: aliceblue; */
         margin-left: 10%;
-        /* margin-top: 20%; */
         padding-top: 5%;
-        align-items: center;
-        justify-content: center;
+        padding-bottom: 5%;
+        
 
     }
     table {
@@ -461,7 +470,7 @@ body{
 
     /* bmi form */
     .bmi-form{
-        padding-top: 4%;
+        padding-top: 5%;
         font-family: "Inter", sans-serif;
         color: white;
     }
@@ -508,6 +517,17 @@ body{
     }
     #select{
         width: 500px;
+    }
+    #calculate-btn {
+        width: 30%;
+        height: 42px;
+        border-radius: 42px;
+        background-color: rgba(230, 83, 60, 1);
+        border: none;
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 1em;
     }
 
 
@@ -582,7 +602,74 @@ body{
         font-weight: normal;
         font-family: "Inter", sans-serif;
     }
-     
+
+    /* this is the footer section */
+
+    .footer-con{
+        padding-top: 3%;
+        margin-top: 50px;
+        height: 380px ;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .footer-container{
+        display: flex;
+        height: fit-content;
+        /* border: 1px solid white; */
+        justify-content: space-between;
+        /* border: 1px solid white; */
+        width: 80%;
+        margin: 0 auto;
+        
+        padding-top: 2%;
+
+
+    }
+    .footer-left h1{
+        font-family: "Inter", sans-serif ;
+        font-weight: 800;
+        font-style: italic;
+        font-size: 4em;
+        color: rgba(230, 83, 60, 1);
+    }
+    .footer-left p{
+        font-family: "Inter", sans-serif ;
+        font-weight: lighter;
+        color: rgba(255, 255, 255, 0.566);
+    }
+
+    .footer-left{
+        width: 40%;
+        /* background-color: #ffffff; */
+    }
+
+    .footer-right h2{
+        color: white;
+        font-family: "Inter", sans-serif ;
+    }
+    .footer-right h4{
+        color: rgba(255, 255, 255, 0.566);
+        font-weight: lighter;
+        font-family: "Inter", sans-serif ;
+    }
+    .footer-right{
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+    }
+    .hr-con{
+        height: 5px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .footer-copy{
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        color: rgba(255, 255, 255, 0.566);
+        /* font-weight: lighter;
+        font-family: "Inter", sans-serif ; */
+    }
 
 
    
