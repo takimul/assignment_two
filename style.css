@@ -461,7 +461,10 @@ body{
 
     /* section five bmi */
 
-    
+    .five-header{
+        width: 80%;
+        margin: 0 auto;
+    }
     .five-header h1{
         margin-top: 5%;
         margin-left: 30%;
@@ -533,7 +536,7 @@ body{
     }
 
     .bmi-form button{
-     width: 250px;
+     width: 40%;
      justify-content: center;
      align-items: center;
      text-align: center;
@@ -549,7 +552,7 @@ body{
     }
 
     .bmi-form select{
-     width: 250px;
+     width: 40%;
      justify-content: center;
      align-items: center;
      text-align: center;
@@ -566,7 +569,7 @@ body{
         color: #ffffff;
     }
     #select{
-        width: 500px;
+        width: 80%;
     }
     #calculate-btn {
         width: 30%;
@@ -657,8 +660,9 @@ body{
 
     .footer-con{
         padding-top: 3%;
+        padding-bottom: 5%;
         margin-top: 50px;
-        height: 380px ;
+        height: fit-content ;
         background-color: rgba(255, 255, 255, 0.1);
     }
 
@@ -719,6 +723,78 @@ body{
         color: rgba(255, 255, 255, 0.566);
         /* font-weight: lighter;
         font-family: "Inter", sans-serif ; */
+    }
+
+
+    /* responsive part */
+    @media (max-width: 480px){
+        .menu-list{
+            display: none;
+        }
+        .two-image-container{
+            flex-direction: column;
+        }
+        .three-content{
+            flex-direction: column;
+        }
+        .three-des{
+            width: 90%;
+        }
+        .three-image{
+            width: 300px;
+            height: 180px;
+            
+        }
+        .five-header{
+            width: 80%;
+            margin: none;
+        }
+        .five-header p{
+            margin-left: 1px;
+        }
+        .five-header h1{
+            margin-left: 1px;
+        }
+        .bmi-form-container{
+            flex-direction: column;
+            padding-left: 5px;
+        }
+        .bmi-table{
+            width: 80%;
+        }
+        .bmi-form{
+            width: 80%;
+            margin: 0 auto;
+            padding-bottom: 15px;
+        }
+        .six-image-container{
+            display: flex;
+            flex-direction: column;
+        }
+        .footer-container{
+            flex-direction: column;
+            width: 80%;
+            margin: 0 auto;
+            height: fit-content;
+        }
+        .footer-left{
+            width: 100%;
+            margin-bottom: 5%;
+            
+        }
+        .footer-right{
+            flex-direction: column;
+            
+        }
+        .footer-right2 h2{
+            margin-top: 10%;
+        }
+        /* .banner-left{
+            display: none;
+        } */
+        
+
+
     }
 
 
