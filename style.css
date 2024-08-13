@@ -238,10 +238,7 @@ body{
  }
 
  /* this is section two */
- /*.section-two-container{
-    max-width: 1920px;
-    background-color: rgb(0, 0, 0);
- }*/
+ 
 .two-header{
     margin-top: -5%;
     justify-content: center;
@@ -288,12 +285,7 @@ body{
 
     /* this is section three run an extra mile */
 
-    /*.three-container{
-        margin-top: -5%;
-        padding-top: 5%;
-        max-width: 1920px;
-    background-color: rgb(0, 0, 0);
-    }*/
+    
     .three-content{
         display: flex;
         
@@ -517,4 +509,80 @@ body{
     #select{
         width: 500px;
     }
+
+
+
+    /* section six meet our team */
+    .six-header h1{
+        text-align: center;
+        font-size: 2em;
+        font-weight: 900;
+        font-family: "Inter", sans-serif;
+        color: #ffffff;
+    }
+
+    .six-header p{
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+        font-weight: normal;
+        font-family: "Inter", sans-serif;
+    }
+    .six-container{
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: fit-content;
+        background-color: rgba(34, 34, 34, 1);
+        border-radius: 10px;
+    }
   
+
+    .six-image-container{
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+        border-radius: 3px;
+        padding-left: 2%;
+        padding-right: 2%;
+        
+        
+        
+        margin-left: 1%;
+        margin-right: 1%;
+        gap: 20px;
+    }
+    .six-image{
+        position: relative;
+        height: 250px;
+        width: 300px;
+        object-fit: cover;
+    }
+    .six-image img{
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+        
+    }
+
+    .six-image h3 {
+        
+        color: white;
+        position: absolute;
+        margin-left: 10%;
+        margin-top: -15%;
+        font-family: "Inter", sans-serif;
+    }
+
+    .six-image p{
+        
+        position: absolute;
+        margin-left: 10%;
+        margin-top: -8%;
+        color: rgba(255, 255, 255, 0.566);
+        font-weight: normal;
+        font-family: "Inter", sans-serif;
+    }
+     
+
+
+   
