@@ -20,6 +20,7 @@ body{
       /* border: 1px solid white; */
       
       /* margin-bottom: 5%; */
+      max-width: 1920px;
       height: 700px;
       
       background: linear-gradient(180deg, #111111 50%, rgba(0, 0, 0, 0) 900%);
@@ -86,7 +87,7 @@ body{
   }
 
   .head-container{
-    /* border: 1px solid white; */
+    /* border: 1px solid white;     */
     width: 80%;
     margin: 0 auto;
     height: 600px;
@@ -97,6 +98,7 @@ body{
   
 
  .banner-container{
+    /* border: 1px solid white;  */
     width: 80%;
     margin: 0 auto;
     /* border: 1px solid white; */
@@ -109,19 +111,24 @@ body{
     /* border: 1px solid white; */
     /* margin-left: 5%; */
       width: 42%;
-      height: 400px;
+      height: 80%;
       font-family: "Inter", sans-serif ;
-      font-size: 2rem;
+      /* font-size: 2em; */
+      font-size: calc(1rem + 1vw);
       color: white;
       margin-top: 5%;
 }
 .banner-left-main{
+    width: 100%;
     height: fit-content;
     /* border: 1px solid white; */
+    font-size: 1em;
     
 }
 .body-para{
+    /* border: 1px solid red; */
     font-size: 0.5em;
+    height: fit-content;
     margin-top: 2%;
     
     color: rgba(255, 255, 255, 0.5);
@@ -140,7 +147,7 @@ body{
     top: 25%;
   }
   .span-style{
-    font-size: 2em;
+    font-size: calc(6rem + 1vw);
     font-family: 'Miama', sans-serif;
     font-weight: lighter;
 }
@@ -187,7 +194,7 @@ body{
 
   .banner-right{
     width: 55%;
-    height: 500px;
+    height: 500;
     /* border: 1px solid white; */
   }
 
@@ -254,7 +261,7 @@ body{
     width: 180px;
     height: 80px;
     top: -380px;
-    left: 350px;
+    left: 60%;
     gap: 0px;
     border-radius: 12px;
     border: 1px;
@@ -728,6 +735,9 @@ body{
 
     /* responsive part */
     @media (max-width: 480px){
+        body{
+            margin: 0 auto;
+        }
         .menu-list{
             display: none;
         }
@@ -768,6 +778,7 @@ body{
             padding-bottom: 15px;
         }
         .six-image-container{
+            margin-left: 5%;
             display: flex;
             flex-direction: column;
         }
@@ -792,6 +803,45 @@ body{
         /* .banner-left{
             display: none;
         } */
+         /* top banner section */
+         .banner-left{
+            width: 100%;
+         }
+         .banner-container{
+            flex-direction: column;
+         }
+         .banner-left-main{
+            width: 100%;
+            height: fit-content;
+            font-size: 16px;
+         }
+        .banner-title{
+            /* position: relative; */
+            line-height: 50px;
+            
+          }
+          .shape-stay{
+        
+            /* position: absolute;
+            display: block; */
+            top: 25%;
+          }
+          .span-style{
+            font-size: 2em;
+            font-family: 'Miama', sans-serif;
+            font-weight: lighter;
+        }
+        .banner-right{
+            margin: 0 auto;
+        }
+
+        .rectangle1{
+            top: -200px;
+        }
+        .rectangle2{
+            left: 90px;
+            top: -400px;
+        }
         
 
 
