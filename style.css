@@ -41,6 +41,11 @@ body{
       
   
   }
+  .menu-bar{
+    /* background-color: #ffffff; */
+    color: #171717;
+    /* display: none; */
+  }
   .menu-list{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 42px;
@@ -841,6 +846,11 @@ body{
         .rectangle2{
             left: 90px;
             top: -400px;
+        }
+
+        .menu-bar{
+            margin-right: 5%;
+            color: #ffffff;
         }
         
 
