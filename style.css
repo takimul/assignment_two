@@ -44,6 +44,7 @@ body{
   .menu-bar{
     /* background-color: #ffffff; */
     color: #171717;
+    z-index: -2;
     /* display: none; */
   }
   .menu-list{
@@ -849,6 +850,7 @@ body{
         }
 
         .menu-bar{
+            z-index: 2;
             margin-right: 5%;
             color: #ffffff;
         }
